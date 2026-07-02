@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MWD Health Monitor</title>
+  <style>
+    body {
+      font-family: "Inter Display", sans-serif;
+      background: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    input, button {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      margin: 5px 0;
+      width: 100%;
+    }
+
+    input {
+      background: #334155;
+      color: white;
+    }
+
+    button {
+      background: #38bdf8;
+      color: black;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+
+    .output {
+      margin-top: 10px;
+      background: #020617;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐕 MWD NLP Health Monitoring</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <h3>Search Dog Status</h3>
+      <input id="dogId" placeholder="Enter Dog ID (e.g. REX_001)">
+      <button onclick="getDog()">Get Status</button>
+      <div id="dogOutput" class="output"></div>
+    </div>
+
+    <div class="card">
+      <h3>Ask Query (NLP)</h3>
+      <input id="queryInput" placeholder="e.g. show critical alerts / status of rex 001">
+      <button onclick="askQuery()">Ask</button>
+      <div id="queryOutput" class="output"></div>
+    </div>
+
+    <div class="card">
+      <h3>Quick Alerts</h3>
+      <button onclick="getCritical()">Show Critical Alerts</button>
+      <button onclick="getWarning()">Show Warning Alerts</button>
+      <div id="alertOutput" class="output"></div>
+    </div>
+
+  </div>
+
+  <script>
+    const BASE_URL = "http://127.0.0.1:8000";
+
+    async function getDog() {
+      const id = document.getElementById("dogId").value;
+      const res = await fetch(`${BASE_URL}/dog/${id}`);
+      const data = await res.json();
+      document.getElementById("dogOutput").innerHTML = `
+        <h3>🐕 Dog ID: ${data.dog_id}</h3>
+        <p><strong>Status:</strong> ${data.response}</p>
+        <p><strong>Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+        `;
+    }
+
+    async function askQuery() {
+      const q = document.getElementById("queryInput").value;
+      const res = await fetch(`${BASE_URL}/query?q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+      document.getElementById("queryOutput").innerHTML = `
+        <h3>🐕 Dog ID: ${data.dog_id}</h3>
+        <p><strong>Status:</strong> ${data.response}</p>
+        <p><strong>Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+        `;
+    }
+
+    async function getCritical() {
+      const res = await fetch(`${BASE_URL}/critical`);
+      const data = await res.json();
+      document.getElementById("alertOutput").innerHTML = `
+        <h3>🐕 Dog ID: ${data.dog_id}</h3>
+        <p><strong>Status:</strong> ${data.response}</p>
+        <p><strong>Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+        `;
+    }
+
+    async function getWarning() {
+      const res = await fetch(`${BASE_URL}/warning`);
+      const data = await res.json();
+      document.getElementById("alertOutput").innerHTML = `
+        <h3>🐕 Dog ID: ${data.dog_id}</h3>
+        <p><strong>Status:</strong> ${data.response}</p>
+        <p><strong>Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+        `;
+    }
+  </script>
+
+</body>
+</html>

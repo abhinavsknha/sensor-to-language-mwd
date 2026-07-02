@@ -1,0 +1,142 @@
+[
+  {
+    "dog_id": "AS_005",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: AS_005 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 57.5 bpm, BR 29.1.\nImmediate attention required."
+  },
+  {
+    "dog_id": "AS_007",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: AS_007 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 55.8 bpm, BR 28.6.\nImmediate attention required."
+  },
+  {
+    "dog_id": "AS_008",
+    "severity": "WARNING",
+    "alert": "WARNING: AS_008 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 55.2 bpm, BR 20.6.\nCheck immediately."
+  },
+  {
+    "dog_id": "AS_010",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: AS_010 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 59.5 bpm, BR 32.7.\nImmediate attention required."
+  },
+  {
+    "dog_id": "AS_062",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: AS_062 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 65.3 bpm, BR 15.7.\nImmediate attention required."
+  },
+  {
+    "dog_id": "AS_072",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: AS_072 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 55.5 bpm, BR 29.1.\nImmediate attention required."
+  },
+  {
+    "dog_id": "BEA_009",
+    "severity": "WARNING",
+    "alert": "WARNING: BEA_009 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 44.9 bpm, BR 15.5.\nCheck immediately."
+  },
+  {
+    "dog_id": "BEA_022",
+    "severity": "WARNING",
+    "alert": "WARNING: BEA_022 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 44.8 bpm, BR 14.8.\nCheck immediately."
+  },
+  {
+    "dog_id": "BEA_043",
+    "severity": "INFO",
+    "alert": "INFO: BEA_043 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 40.9 bpm, BR 8.0.\nMonitor."
+  },
+  {
+    "dog_id": "BEA_045",
+    "severity": "INFO",
+    "alert": "INFO: BEA_045 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 44.6 bpm, BR 8.5.\nMonitor."
+  },
+  {
+    "dog_id": "BEA_047",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: BEA_047 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 37.5 bpm, BR 8.8.\nImmediate attention required."
+  },
+  {
+    "dog_id": "BEA_048",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: BEA_048 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 37.1 bpm, BR 7.4.\nImmediate attention required."
+  },
+  {
+    "dog_id": "BER_002",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: BER_002 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 61.3 bpm, BR 20.4.\nImmediate attention required."
+  },
+  {
+    "dog_id": "BER_003",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: BER_003 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 57.2 bpm, BR 24.3.\nImmediate attention required."
+  },
+  {
+    "dog_id": "DOB_024",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: DOB_024 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 86.3 bpm, BR 15.2.\nImmediate attention required."
+  },
+  {
+    "dog_id": "LAB_011",
+    "severity": "INFO",
+    "alert": "INFO: LAB_011 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 47.1 bpm, BR 8.2.\nMonitor."
+  },
+  {
+    "dog_id": "LAB_078",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: LAB_078 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 76.3 bpm, BR 16.8.\nImmediate attention required."
+  },
+  {
+    "dog_id": "LAB_095",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: LAB_095 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 78.3 bpm, BR 16.4.\nImmediate attention required."
+  },
+  {
+    "dog_id": "LAB_096",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: LAB_096 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 76.3 bpm, BR 16.8.\nImmediate attention required."
+  },
+  {
+    "dog_id": "TER_008",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: TER_008 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 70.5 bpm, BR 14.1.\nImmediate attention required."
+  },
+  {
+    "dog_id": "TER_013",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: TER_013 \u2014 abnormal vitals.\nPossible exertion or stress.\nHR 81.7 bpm, BR 9.5.\nImmediate attention required."
+  },
+  {
+    "dog_id": "TER_015",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: TER_015 \u2014 abnormal vitals.\nPossible exertion or stress.\nHR 80.4 bpm, BR 11.6.\nImmediate attention required."
+  },
+  {
+    "dog_id": "TER_016",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: TER_016 \u2014 abnormal vitals.\nPossible exertion or stress.\nHR 78.0 bpm, BR 12.2.\nImmediate attention required."
+  },
+  {
+    "dog_id": "TER_031",
+    "severity": "INFO",
+    "alert": "INFO: TER_031 \u2014 reduced heart rate.\nUnusual physiological condition.\nHR 56.2 bpm, BR 12.3.\nMonitor."
+  },
+  {
+    "dog_id": "WEI_004",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: WEI_004 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 53.4 bpm, BR 24.1.\nImmediate attention required."
+  },
+  {
+    "dog_id": "WEI_005",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: WEI_005 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 51.8 bpm, BR 21.4.\nImmediate attention required."
+  },
+  {
+    "dog_id": "WEI_006",
+    "severity": "WARNING",
+    "alert": "WARNING: WEI_006 \u2014 reduced heart rate, elevated breathing.\nPossible fatigue or physiological stress.\nHR 48.1 bpm, BR 21.4.\nCheck immediately."
+  },
+  {
+    "dog_id": "WEI_007",
+    "severity": "CRITICAL",
+    "alert": "CRITICAL: WEI_007 \u2014 elevated breathing.\nPossible exertion or stress.\nHR 68.2 bpm, BR 14.7.\nImmediate attention required."
+  }
+]

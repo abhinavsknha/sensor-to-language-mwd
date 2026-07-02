@@ -1,2 +1,3 @@
-*.zip
-ffmpeg-8.1-essentials_build/
+venv/
+__pycache__/
+*.mp3

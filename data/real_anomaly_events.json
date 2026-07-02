@@ -1,0 +1,451 @@
+[
+  {
+    "dog_id": "AS_005",
+    "breed": "australian_shepherd",
+    "age": 9.5,
+    "weight": 20.0,
+    "heart_rate": 57.54,
+    "hr_max": 59.52,
+    "breathing_rate": 29.09,
+    "hrv": 0.3956,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "AS_007",
+    "breed": "australian_shepherd",
+    "age": 9.5,
+    "weight": 20.0,
+    "heart_rate": 55.76,
+    "hr_max": 59.22,
+    "breathing_rate": 28.63,
+    "hrv": 0.4182,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "below_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "AS_008",
+    "breed": "australian_shepherd",
+    "age": 9.5,
+    "weight": 20.0,
+    "heart_rate": 55.23,
+    "hr_max": 63.07,
+    "breathing_rate": 20.62,
+    "hrv": 0.4697,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "AS_010",
+    "breed": "australian_shepherd",
+    "age": 9.5,
+    "weight": 20.0,
+    "heart_rate": 59.52,
+    "hr_max": 59.52,
+    "breathing_rate": 32.71,
+    "hrv": 0.3849,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]   
+  },
+  {
+    "dog_id": "AS_062",
+    "breed": "australian_shepherd",
+    "age": 2.0,
+    "weight": 26.0,
+    "heart_rate": 65.3,
+    "hr_max": 90.23,
+    "breathing_rate": 15.65,
+    "hrv": 0.382,
+    "flags": [
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "AS_072",
+    "breed": "australian_shepherd",
+    "age": 2.1,
+    "weight": 23.0,
+    "heart_rate": 55.54,
+    "hr_max": 59.41,
+    "breathing_rate": 29.1,
+    "hrv": 0.2834,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "below_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "BEA_009",
+    "breed": "beauceron",
+    "age": 7.5,
+    "weight": 29.0,
+    "heart_rate": 44.9,
+    "hr_max": 52.81,
+    "breathing_rate": 15.48,
+    "hrv": 0.4481,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "BEA_022",
+    "breed": "beauceron",
+    "age": 7.5,
+    "weight": 29.0,
+    "heart_rate": 44.79,
+    "hr_max": 47.38,
+    "breathing_rate": 14.8,
+    "hrv": 1.251,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "BEA_043",
+    "breed": "beauceron",
+    "age": 4.0,
+    "weight": 38.0,
+    "heart_rate": 40.86,
+    "hr_max": 60.45,
+    "breathing_rate": 7.98,
+    "hrv": 0.7479,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "BEA_045",
+    "breed": "beauceron",
+    "age": 4.0,
+    "weight": 38.0,
+    "heart_rate": 44.56,
+    "hr_max": 63.96,
+    "breathing_rate": 8.52,
+    "hrv": 0.6254,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "BEA_047",
+    "breed": "beauceron",
+    "age": 4.0,
+    "weight": 38.0,
+    "heart_rate": 37.5,
+    "hr_max": 43.91,
+    "breathing_rate": 8.83,
+    "hrv": 0.632,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "BEA_048",
+    "breed": "beauceron",
+    "age": 4.0,
+    "weight": 38.0,
+    "heart_rate": 37.07,
+    "hr_max": 44.02,
+    "breathing_rate": 7.42,
+    "hrv": 0.6718,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "BER_002",
+    "breed": "berger",
+    "age": 5.5,
+    "weight": 11.0,
+    "heart_rate": 61.27,
+    "hr_max": 88.77,
+    "breathing_rate": 20.35,
+    "hrv": 0.3238,
+    "flags": [
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "BER_003",
+    "breed": "berger",
+    "age": 5.5,
+    "weight": 11.0,
+    "heart_rate": 57.24,
+    "hr_max": 88.75,
+    "breathing_rate": 24.33,
+    "hrv": 0.3383,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "DOB_024",
+    "breed": "doberman",
+    "age": 1.5,
+    "weight": 33.0,
+    "heart_rate": 86.27,
+    "hr_max": 110.62,
+    "breathing_rate": 15.2,
+    "hrv": 0.1531,
+    "flags": [
+      "high_hr",
+      "low_hrv",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "LAB_011",
+    "breed": "labrador",
+    "age": 3.5,
+    "weight": 25.5,
+    "heart_rate": 47.14,
+    "hr_max": 51.05,
+    "breathing_rate": 8.2,
+    "hrv": 0.6214,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "LAB_078",
+    "breed": "labrador",
+    "age": 4.0,
+    "weight": 27.0,
+    "heart_rate": 76.26,
+    "hr_max": 106.26,
+    "breathing_rate": 16.82,
+    "hrv": 0.213,
+    "flags": [
+      "high_hr",
+      "low_hrv",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "LAB_095",
+    "breed": "labrador",
+    "age": 4.0,
+    "weight": 27.0,
+    "heart_rate": 78.3,
+    "hr_max": 85.27,
+    "breathing_rate": 16.38,
+    "hrv": 0.1525,
+    "flags": [
+      "high_hr",
+      "low_hrv",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "LAB_096",
+    "breed": "labrador",
+    "age": 4.0,
+    "weight": 27.0,
+    "heart_rate": 76.34,
+    "hr_max": 83.92,
+    "breathing_rate": 16.8,
+    "hrv": 0.1653,
+    "flags": [
+      "high_hr",
+      "low_hrv",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "TER_008",
+    "breed": "tervueren",
+    "age": 2.0,
+    "weight": 24.8,
+    "heart_rate": 70.46,
+    "hr_max": 79.79,
+    "breathing_rate": 14.14,
+    "hrv": 0.2807,
+    "flags": [
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "TER_013",
+    "breed": "tervueren",
+    "age": 2.0,
+    "weight": 24.8,
+    "heart_rate": 81.69,
+    "hr_max": 91.6,
+    "breathing_rate": 9.46,
+    "hrv": 0.205,
+    "flags": [
+      "high_hr",
+      "low_hrv",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv"
+    ]
+  },
+  {
+    "dog_id": "TER_015",
+    "breed": "tervueren",
+    "age": 2.0,
+    "weight": 24.8,
+    "heart_rate": 80.38,
+    "hr_max": 103.71,
+    "breathing_rate": 11.59,
+    "hrv": 0.2434,
+    "flags": [
+      "high_hr",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv"
+    ]
+  },
+  {
+    "dog_id": "TER_016",
+    "breed": "tervueren",
+    "age": 2.0,
+    "weight": 24.8,
+    "heart_rate": 77.96,
+    "hr_max": 89.66,
+    "breathing_rate": 12.23,
+    "hrv": 0.2404,
+    "flags": [
+      "high_hr",
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv"
+    ]
+  },
+  {
+    "dog_id": "TER_031",
+    "breed": "tervueren",
+    "age": 2.0,
+    "weight": 24.8,
+    "heart_rate": 56.21,
+    "hr_max": 87.34,
+    "breathing_rate": 12.34,
+    "hrv": 0.4868,
+    "flags": [
+      "physiological_anomaly",
+      "below_normal_hr"
+    ]
+  },
+  {
+    "dog_id": "WEI_004",
+    "breed": "weimaraner",
+    "age": 5.5,
+    "weight": 27.0,
+    "heart_rate": 53.38,
+    "hr_max": 58.75,
+    "breathing_rate": 24.12,
+    "hrv": 0.2902,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "below_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "WEI_005",
+    "breed": "weimaraner",
+    "age": 5.5,
+    "weight": 27.0,
+    "heart_rate": 51.81,
+    "hr_max": 69.01,
+    "breathing_rate": 21.39,
+    "hrv": 0.3581,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "below_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "WEI_006",
+    "breed": "weimaraner",
+    "age": 5.5,
+    "weight": 27.0,
+    "heart_rate": 48.06,
+    "hr_max": 55.56,
+    "breathing_rate": 21.39,
+    "hrv": 0.4329,
+    "flags": [
+      "high_br",
+      "physiological_anomaly",
+      "below_normal_hr",
+      "elevated_br"
+    ]
+  },
+  {
+    "dog_id": "WEI_007",
+    "breed": "weimaraner",
+    "age": 5.5,
+    "weight": 27.0,
+    "heart_rate": 68.18,
+    "hr_max": 85.44,
+    "breathing_rate": 14.67,
+    "hrv": 0.3554,
+    "flags": [
+      "physiological_anomaly",
+      "above_normal_hr",
+      "reduced_hrv",
+      "elevated_br"
+    ]
+  }
+]

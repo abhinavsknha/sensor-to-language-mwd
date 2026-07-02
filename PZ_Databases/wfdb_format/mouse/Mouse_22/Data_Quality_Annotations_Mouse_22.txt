@@ -1,8 +1,0 @@
----
-type: quality annotaion
-source file: Mouse_22
-
----
-
-Beginning	End		Class
-808.447		809.735		C
