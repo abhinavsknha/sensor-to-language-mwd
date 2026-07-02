@@ -1,0 +1,10 @@
+---
+type: quality annotaion
+source file: Mouse_21
+
+---
+
+Beginning	End		Class
+293.466		294.107		C
+921.758		925.469		C
+968.588		974.512		C
